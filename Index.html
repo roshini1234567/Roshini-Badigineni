@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Roshini Badigineni's software development and AI portfolio.">
+  <title>Roshini Badigineni | Developer Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f8fc;
+      color: #20243a;
+      line-height: 1.7;
+    }
+    header {
+      background: #151b35;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    header h2 { color: #8b9cff; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; }
+    nav a:hover { color: #a7b4ff; }
+    .hero {
+      background: linear-gradient(135deg, #151b35, #384a88);
+      color: white;
+      padding: 85px 8%;
+    }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.7rem); line-height: 1.2; }
+    .hero h3 { color: #b9c5ff; margin: 18px 0; }
+    .hero p { max-width: 650px; }
+    .btn {
+      display: inline-block;
+      margin: 22px 10px 0 0;
+      padding: 11px 20px;
+      border-radius: 7px;
+      background: #a9b7ff;
+      color: #151b35;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 55px 8%; }
+    section h2 { font-size: 2rem; margin-bottom: 20px; }
+    .about { max-width: 850px; }
+    .skills {
+      display: flex; flex-wrap: wrap; gap: 12px;
+    }
+    .skills span {
+      background: #e7eaff;
+      color: #293b80;
+      padding: 9px 15px;
+      border-radius: 20px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e5e8f2;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 5px 18px #1820440b;
+    }
+    .card h3 { color: #354b9a; margin-bottom: 10px; }
+    .card p { margin-bottom: 12px; }
+    .card a { color: #354b9a; font-weight: bold; }
+    .contact { background: #e9edff; }
+    .contact a { color: #293b80; }
+    footer {
+      background: #151b35;
+      color: white;
+      text-align: center;
+      padding: 22px;
+    }
+    @media (max-width: 600px) {
+      header { padding: 18px 5%; }
+      nav { gap: 12px; }
+      .hero, section { padding: 45px 6%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Roshini.</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <p>Hello, welcome to my portfolio!</p>
+    <h1>I'm Roshini Badigineni</h1>
+    <h3>Aspiring Software Developer | AI Engineer</h3>
+    <p>
+      I'm an Electronics and Communication Engineering graduate
+      interested in software development, artificial intelligence,
+      and building practical technology solutions.
+    </p>
+    <a class="btn" href="#projects">Explore My Projects</a>
+    <a class="btn" href="#contact">Contact Me</a>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <p>
+        I completed my B.Tech in Electronics and Communication
+        Engineering in 2025. I am interested in software development
+        and AI-related opportunities where I can apply my technical
+        knowledge, develop practical solutions, and continue learning.
+      </p>
+      <p>
+        I enjoy learning new technologies, solving problems, and
+        working on projects that connect programming with real-world needs.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>Core Java</span>
+      <span>Advanced Java</span>
+      <span>Python</span>
+      <span>SQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Deep Learning</span>
+      <span>Git & GitHub</span>
+    </div>
+    <p style="margin-top:16px">
+      Note: Keep only skills you can explain in an interview.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <article class="card">
+        <h3>Heart Disease Prediction</h3>
+        <p>
+          An academic project exploring deep learning approaches
+          for predicting heart disease from relevant input data.
+        </p>
+        <p><strong>Focus:</strong> Deep Learning, model evaluation</p>
+        <p>
+          Add your actual models, tools, dataset, and results here.
+        </p>
+        <a href="https://github.com/" target="_blank"
+           rel="noopener noreferrer">Add Project Code →</a>
+      </article>
+
+      <article class="card">
+        <h3>Chatbot Development</h3>
+        <p>
+          Experience working on chatbot interface improvements,
+          FAQ presentation, location fields, and chatbot flow.
+        </p>
+        <p><strong>Focus:</strong> Frontend and backend concepts</p>
+        <p>
+          Share only work approved for public viewing. Otherwise,
+          replace this with a personal demo project.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Single-Axis Solar Tracker</h3>
+        <p>
+          An electronics project focused on tracking sunlight
+          along one axis to improve solar panel alignment.
+        </p>
+        <p><strong>Focus:</strong> Electronics and renewable energy</p>
+        <p>Add the components, your contribution, and project photos.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>I'm interested in suitable entry-level opportunities.</p>
+    <p style="margin-top:12px">
+      Email: <a href="mailto:YOUR_EMAIL@example.com">
+        YOUR_EMAIL@example.com
+      </a>
+    </p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/" target="_blank"
+         rel="noopener noreferrer">Add your LinkedIn profile</a>
+    </p>
+    <p>
+      GitHub:
+      <a href="https://github.com/roshini1234567"
+         target="_blank" rel="noopener noreferrer">
+        View my GitHub profile
+      </a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Roshini Badigineni | Portfolio</p>
+</footer>
+
+</body>
+</html>
